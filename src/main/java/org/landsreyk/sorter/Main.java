@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
-    private static final String WORK_DIR_PATH = "D:/OneDrive/SORTED/STUDY/practice/csv-file-sorter/src/main/resources/";
+    public static final String WORK_DIR_PATH = "D:/OneDrive/SORTED/STUDY/practice/csv-file-sorter/src/main/resources/";
 
     public static void main(String[] args) throws IOException {
         org.openjdk.jmh.Main.main(args);
