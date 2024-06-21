@@ -14,7 +14,7 @@ import java.util.List;
 
 public class LargeCsvSorter {
 
-    public static final int BLOCK_SIZE = 5000;
+    public static final int BLOCK_SIZE = 20000;
     private final String tempDir;
     private final String inputFile;
     private final String outputFile;
