@@ -19,7 +19,7 @@ public class Main {
     @OutputTimeUnit(TimeUnit.SECONDS)
     @Measurement(iterations = 5)
     public void testMethod() {
-        LargeCsvSorter sorter = new LargeCsvSorter(WORK_DIR_PATH, "input_medium.csv");
+        LargeCsvSorter sorter = new LargeCsvSorter(WORK_DIR_PATH, "input_large.csv");
         sorter.sort();
     }
 }
